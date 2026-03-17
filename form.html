@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <style>
+      body{
+          padding: 0;
+          margin: 0;
+          font-family: Helvetica;
+          box-sizing: border-box;
+      }
+
+      .container{
+          max-width: 600px;
+          margin: 20px auto;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          background-color: #f9f9f9;
+      }
+
+      h4{
+        color: #003b6d;
+        font-size: 36px;
+        font-weight: 100;
+      }
+
+      label{
+          display: block;
+          margin-bottom: 8px;
+          font-weight: bold;
+      }
+
+      input, select, textarea{
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 16px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 16px;
+      }
+
+      form > button{
+          width: 100%;
+          padding: 10px;
+          background-color: #003B6D;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          font-size: 16px;
+          cursor: pointer;
+      }
+
+      form> button:hover{
+          background-color:#6699CC;
+      }
+
+      .warning{
+          color: red;
+          font-size: 14px;
+          margin-top: -12px;
+          margin-bottom: 12px;
+      }
+  </style>
+    <script defer src="jss/activePage.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paradigm Pet Profesionals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="pppicon" href="images/brand1.png" />
+  </head>
+  <body>
+    <nav id="navBar">
+      <img class="logo" src="images/brand2.png" alt="PPP Logo" width="200">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="cats.html">Cats ▼</a>
+          <ul class="dropdown">
+            <li>
+              <a href="cats.html#Zero to Four Weeks">Zero to Four Weeks</a>
+            </li>
+            <li>
+              <a href="cats.html#Four Weeks to One Year">Four Weeks to One Year</a>             
+              <li><a href="cats.html#One Year to Seven Years">One Year to Seven Years</a></li>
+              <li><a href="cats.html#Seven Years and More">Seven Years and More</a></li>
+            </li>
+          </ul>
+        </li>
+        <li><a href="dogs.html">Dogs ▼</a>
+          <ul class="dropdown">
+            <li><a href="dogs.html#Diet & Exercise">Diet & Exercise</a></li>
+            <li><a href="dogs.html#Grooming & Handling">Grooming & Handling</a></li>
+            <li><a href="dogs.html#Vaccinations & Medications">Vaccinations & Medications</a></li>
+          </ul>
+        
+        </li>
+        <li><a href="fish.html">Fish ▼</a>
+          <ul class="dropdown">
+            <li><a href="fish.html#Freshwater Fish">Freshwater Fish</a></li>
+            <li><a href="fish.html#Saltwater Fish">Saltwater Fish</a></li>
+          </ul>
+        </li>
+        <a class="navcta" href="form.html">
+          <button>Book a Consultation</button>
+        </a>
+      </ul>
+    </nav>
+    <div class="container">
+      <h4>Contact Us</h4>
+      <form id="contactForm" action="/submit" method="post">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+          <label for="timezone">Time Zone</label>
+          <select id="timezone" name="timezone" required>
+              <option value="" disabled selected>Select your time zone</option>
+              <option value="EST">Eastern Standard Time (EST)</option>
+              <option value="CST">Central Standard Time (CST)</option>
+              <option value="MST">Mountain Standard Time (MST)</option>
+              <option value="PST">Pacific Standard Time (PST)</option>
+          </select>
+          <label for="pet-name">Pet's Name</label>
+          <input type="text" id="pet-name" name="pet-name" placeholder="Enter your pet's name" required>
+          <label for="pet-type">Pet Type</label>
+          <select id="pet-type" name="pet-type" required>
+              <option value="" disabled selected>Select pet type</option>
+              <option value="dog">Dog</option>
+              <option value="cat">Cat</option>
+              <option value="bird">Bird</option>
+              <option value="reptile">Reptile</option>
+              <option value="small-animal">Small Animal</option>
+          </select>
+          <label for="pet-age">Pet's Age (in years)</label>
+          <input type="number" id="pet-age" name="pet-age" placeholder="Enter your pet's age" min="0" required>
+          <button type="submit">Submit</button>
+      </form>
+  </div> 
+    <footer>
+      <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading heading-1">
+            <a href="index.html"><h3>Home</h3></a>
+          </div>
+          <div class="footer-heading heading-2">
+            <a href="cats.html"><h3>Cats</h3></a>
+            <a href="cats.html#Zero to Four Weeks">Zero to Four Weeks</a>
+            <a href="cats.html#Four Weeks to One Year">Four Weeks to One Year</a>
+                <a href="cats.html#One Year to Seven Years">One Year to Seven Years</a>
+                <a href="cats.html#Seven Years and More">Seven Years and More</a>
+          </div>
+          <div class="footer-heading heading-3">
+            <a href="dogs.html"><h3>Dogs</h3></a>
+            <a href="dogs.html#Diet & Exercise">Diet & Exercise</a>
+            <a href="dogs.html#Grooming & Handling">Grooming & Handling</a>
+            <a href="dogs.html#Vaccinations & Medications">Vaccinations & Medications</a>
+          </div>
+          <div class="footer-heading heading-4">
+            <a href="fish.html"><h3>Fish</h3></a>
+            <a href="fish.html#Freshwater Fish">Freshwater Fish</a>
+            <a href="fish.html#Saltwater Fish">Saltwater Fish</a>
+          </div>
+          <div class="footer-email-form">
+            <h3>
+              Join our newsletter
+            </h3>
+            <input type="email" placeholder="Enter your email address" id="footer-email">
+            <input type="submit" value="Sign Up" id="footer-email-btn">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

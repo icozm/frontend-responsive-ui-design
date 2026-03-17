@@ -1,0 +1,280 @@
+.logo {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  line-height: 1.3;
+  box-sizing: border-box;
+}
+
+nav > ul {
+  list-style: none;
+  background: #003b6d;
+}
+nav > ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav > ul li a {
+  display: block;
+  padding: 20px 20px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+}
+nav > ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+  width: 300%;
+  background-color: #003b6d;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+ul li a:hover {
+  background: #6699cc;
+  transition: 300ms;
+}
+
+.navcta {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+}
+
+button:hover {
+  background: #6699cc;
+  cursor: pointer;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+.consultation {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: orangered;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.subhero {
+  display: flex;
+  width: 50%;
+}
+.banner {
+  background-color: #003b6d;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/happydog.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: left;
+  padding: 100px;
+  padding-bottom: 100px;
+}
+.hero {
+  font-size: 40px;
+  font-weight: 10;
+  color: #6699cc;
+  display: flex;
+  width: 45%;
+}
+button {
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: orangered;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.adoption {
+  background-color: whitesmoke;
+  color: #003b6d;
+  text-align: justify;
+  padding: 100px;
+  padding-bottom: 100px;
+}
+.midsection {
+  background-color: whitesmoke;
+  text-align: center;
+  padding-top: 30px;
+  color: black;
+}
+.contain {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+.services {
+  background-color: whitesmoke;
+  display: block;
+}
+.offerings {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+h1 {
+  color: #003b6d;
+  font-size: 36px;
+  font-weight: 100;
+}
+p {
+  font-size: 20px;
+}
+
+p > a {
+  text-decoration: none;
+  color: #003b6d;
+}
+p > a:hover {
+  color: orangered;
+}
+
+div > img {
+  position: relative;
+  float: initial;
+}
+.card {
+  background: whitesmoke;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 9px;
+  text-align: center;
+  padding-bottom: 400px;
+}
+
+div.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 300ms ease-in-out;
+}
+.card-image {
+  height: 300px;
+  margin-bottom: 0px;
+  background-size: cover;
+  border-radius: 10px;
+}
+.cardlinks {
+  text-decoration: none;
+  color: #003b6d;
+  font-size: 24px;
+}
+.cat {
+  background-image: url(../images/Cat8.jpg);
+}
+
+.dog {
+  background-image: url(../images/dog4.jpg);
+}
+
+.fish {
+  background-image: url(../images/fish2.jpg);
+}
+
+footer {
+  border-top: #bdbdbd solid 5px;
+}
+.footer-container {
+  background-color: #676767;
+  padding-bottom: 4rem;
+  padding: 2rem 0 4rem 0;
+}
+
+.footer {
+  color: #bdbdbd;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+footer-heading h3 {
+  margin-bottom: 2rem;
+}
+
+.footer-heading a {
+  color: #bdbdbd;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+.footer-heading a:hover {
+  color: orangered;
+  transition: 0.3s ease-out;
+}
+.footer-emai-form h3 {
+  margin-bottom: 2rem;
+}
+
+#footer-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+#footer-email::placeholder {
+  color: #bdbdbd;
+}
+
+#footer-email-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: orangered;
+  font-size: 1rem;
+}
+
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: #6699cc;
+  transform: 0.4s ease-out;
+}
+a:is(:link, :active, :visited).active {
+  color: #6699cc;
+  background-color: #003b6d;
+}
+
+.catspage {
+  margin: 20px 100px 20px 100px;
+}
+.dogspage {
+  margin: 20px 100px 20px 100px;
+}
+.fishpage {
+  margin: 20px 100px 20px 100px;
+}
+.formpage {
+  margin: 20px 100px 20px 100px;
+}
+section > ul {
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+section > h2 {
+  padding-top: 25px;
+}
