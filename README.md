@@ -26,10 +26,12 @@ This project was created to:
 
 ## How to Run the Project
 1. Clone this repository:
-   git clone https://github.com/icozm/User-Interface-Design.git
-   Open the project folder
-   Open index.html in your browser
+   ```bash
+   git clone https://github.com/icozm/User-Interface-Design-Project.git
+   ```
+2. Open the project folder
+3. Open index.html in your browser and navigate the website
 
 # Author: 
-Ivan Cozmulici 
-GitHub: https://github.com/icozm
+- Ivan Cozmulici 
+- GitHub: https://github.com/icozm
