@@ -4,6 +4,8 @@
 This repository contains my User Interface Design project for a fictinonal company that specializes on pet health advice. It showcases my work in UX/UI design and building a user-friendly interface with a focus on layout, usability, visual structure, and accessibility.
 
 The purpose of this project is to demonstrate my understanding of front-end design principles and how to create an interface that is both functional, visually appealing and easy to navigate both from a desktop and a mobile device.
+![Homepage](./images/home_header.png)
+![Homepage](./images/home_footer.png)
 
 ## Features
 - Clean and organized user interface
