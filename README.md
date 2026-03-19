@@ -10,6 +10,7 @@ The purpose of this project is to demonstrate my understanding of front-end desi
 ## Features
 - Clean and organized user interface
 - Consistent footer and header all pages
+- Drop-down menu for navigation between pages
 - CTA (Call to action) buttons
 - Responsive layout
 - Easy-to-use navigation
